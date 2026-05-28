@@ -9,7 +9,7 @@ const rawPort = process.env.PORT || "3000";
 const port = Number(rawPort);
 
 export default defineConfig({
-  base: basePath,
+  base: "/",
   plugins: [
     
     react(),
