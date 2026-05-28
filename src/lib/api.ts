@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || "/api";
+const BASE = "https://d707fe43-f159-49ff-ba05-34dbdb912dee-00-vid7aajvjnyd.spock.replit.dev/api";
 
 async function apiFetch<T>(path: string, opts?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE}${path}`, {
